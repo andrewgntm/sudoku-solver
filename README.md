@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Naked twins are squares where only two similar values remain as options. Applying constraint propagation removes the twin values from the intersection of all peers of the naked twins' squares. This then reduces the search space to get to the solution.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: By adding diagonals to the unitlist along with squares, rows and coluns, diagonals are now part of the constraint propogation applied in eliminate, only choice and naked twins.
 
 ### Install
 
